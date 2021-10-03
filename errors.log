@@ -1,0 +1,79 @@
+Error in status: ReferenceError: switchTo is not defined
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\status.js:22:13)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in status: ReferenceError: hours is not defined
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\status.js:27:47)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in djs: TypeError: Cannot read property 'length' of undefined
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\djs.js:37:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:9)
+
+Error in guide: TypeError: Assignment to constant variable.
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\guide.js:17:22)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in guide: ReferenceError: Cannot access 'find' before initialization
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\guide.js:20:20)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in guide: ReferenceError: Cannot access 'found' before initialization
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\guide.js:20:21)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in djs: TypeError: res.json is not a function
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\djs.js:44:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:9)
+
+Error in djs: RangeError [EMBED_TITLE]: MessageEmbed title must be a string.
+    at Function.verifyString (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\util\Util.js:413:41)
+    at MessageEmbed.setTitle (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\MessageEmbed.js:392:23)
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\info\djs.js:46:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:78:9)
+
+Error in eval: TypeError: message.mentions.users.splice is not a function
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:85:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in eval: TypeError: message.mentions.users.toArray is not a function
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:85:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in eval: TypeError: Cannot convert undefined or null to object
+    at push (<anonymous>)
+    at Map.forEach (<anonymous>)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:85:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in eval: TypeError: Cannot convert undefined or null to object
+    at push (<anonymous>)
+    at Map.forEach (<anonymous>)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:85:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in blacklist: TypeError: message.mentions.users.first is not a function
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\commands\owner\blacklist.js:20:45)
+    at module.exports.msg (C:\Users\NS\source\repos\DjsTeacher\events\messages.js:95:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+Error in help: TypeError [INVALID_TYPE]: Supplied data.type is not a valid MessageComponentType.
+    at Function.create (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\BaseMessageComponent.js:86:17)
+    at C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\MessagePayload.js:140:79
+    at Array.map (<anonymous>)
+    at MessagePayload.resolveData (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\MessagePayload.js:140:49)
+    at InteractionWebhook.send (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\Webhook.js:165:61)
+    at CommandInteraction.followUp (C:\Users\NS\source\repos\DjsTeacher\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:165:25)
+    at C:\Users\NS\source\repos\DjsTeacher\events\interaction.js:11:18
+    at new Promise (<anonymous>)
+    at send (C:\Users\NS\source\repos\DjsTeacher\events\interaction.js:9:16)
+    at Object.run (C:\Users\NS\source\repos\DjsTeacher\SlashCommands\info\help.js:68:38)
+

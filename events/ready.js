@@ -1,0 +1,10 @@
+const client = require('../index')
+const chalk = require('chalk')
+
+client.on('ready', () => console.log(chalk.green('Logged in as ' + client.user.tag)))
+client.on('debug', (a) => console.log(chalk.grey(a)))
+client.on('rateLimit', (rate) => console.log(chalk.grey(`Rate limited: Timeout: ${rate.timeout}\nLimit: ${rate.limit}\nRoute: ${rate.route}`)))
+client.on('guildCreate', (guild) => client.channels.cache.get('840369575878590525').send({embeds: [new Discord.MessageEmbed().setTitle('I entered a new server!').setDescription(`**Name:** ${guild.name} (${guild.id})\n**Members:** ${guild.memberCount}\n`).setTimestamp().setColor('GREEN').setFooter(`I am in ${client.guilds.cache.size} Servers!`)]}))
+client.on('guildDelete', (guild) => client.channels.cache.get('840369594266025994').send({embeds: [new Discord.MessageEmbed().setTitle('I left a server!').setDescription(`**Name:** ${guild.name} (${guild.id})\n**Members:** ${guild.memberCount}\n`).setTimestamp().setColor('RED').setFooter(`I am in ${client.guilds.cache.size} Servers!`)]}))
+process.on('unhandledRejection', (err) => console.log(chalk.red('Unhandled Promise Rejection Warning:\nStack: ' + err.stack)))
+process.on('uncaughtException', (err) => console.log(chalk.red('Uncaught Exception:\nStack: ' + err.stack)))

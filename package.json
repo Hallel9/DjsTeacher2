@@ -1,0 +1,32 @@
+{
+  "name": "djsteacher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonii1357/DjsTeacher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonii1357/DjsTeacher/issues"
+  },
+  "homepage": "https://github.com/antonii1357/DjsTeacher#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "discord.js": "^13.1.0",
+    "ghom-djs-docs": "^1.0.13",
+    "glob": "^7.2.0",
+    "html-to-md": "^0.5.0",
+    "js-browser-compat-data": "^1.0.5",
+    "mongoose": "^6.0.8",
+    "node-fetch": "^2.6.5",
+    "youtube-search": "^1.1.6"
+  }
+}
